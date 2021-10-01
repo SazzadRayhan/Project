@@ -7,6 +7,28 @@
 .Using-color{
     color:#5AB9EA;
 }
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #5AB9EA;
+    margin-top: 50px;
+}
+.title h3 {
+    display: flex;
+    flex-direction: row;
+  }
+  h3:before, h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h3:before {
+    margin-right: 10px
+  }
+  h3:after {
+    margin-left: 10px
+  }
 /* nav-section starts */
 .flex-container  {
     display: flex;
@@ -91,12 +113,6 @@
 /* hero-section end */
 
 /* Biography-section  */
-.title {
-    text-align: center;
-    font-size: 50px;
-    color: #5AB9EA;
-    margin-top: 50px;
-}
 .Biography-container{
     display: flex;
     margin-top: 80px;
