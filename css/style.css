@@ -239,3 +239,14 @@ textarea {
     background:#5AB9EA;
     }
 /* Contact Section end */
+
+/* Footer */
+footer{
+    background-color: gray;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+/* Footer end*/
