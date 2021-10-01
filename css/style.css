@@ -160,3 +160,27 @@
     box-shadow: 5px 10px 8px #888888;
 }
 /* Politics Section end */
+
+/* Business Activites */
+.business-container{
+    width: 1100px;
+    margin: 80px auto;
+    /* margin-bottom: 80px; */
+}
+.business{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+}
+.business-details{
+    box-shadow: 1px 1px 10px rgba(143, 143, 143, 0.425);
+}
+.business-info{
+    padding: 4% 4% 0;
+}
+.business-img img{
+    width: 92%;
+    height: 92%;
+    padding: 4%;
+}
+/* Business Activites end */
