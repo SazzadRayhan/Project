@@ -47,6 +47,7 @@
   }
 
 /* nav-section ends */
+
 /* hero-section starts */
 .hero-container{
     min-height: 100vh;
@@ -88,3 +89,58 @@
     color: white;
 }
 /* hero-section end */
+
+/* Biography-section  */
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #5AB9EA;
+    margin-top: 50px;
+}
+.Biography-container{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.biography-info{
+    width: 40%;
+    padding: 0 5%;
+    margin: auto;
+}
+.biography-info p{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.biography-info img{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+/* Biography-section end  */
+
+/* Politics Section */
+.Politics-container{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.Politics-info{
+    width: 40%;
+    padding: 0 5%;
+    margin: auto;
+}
+.Politics-info img{
+   width: 100%;
+   border: 1px solid;
+   padding: 10px;
+   box-shadow: 5px 10px 8px #888888;
+}
+.Politics-info p{
+    font-size: 18.5px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+/* Politics Section end */
